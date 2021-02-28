@@ -10,6 +10,7 @@ import javax.persistence.Id;
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 
 @Entity
 public class Live {
@@ -27,7 +28,10 @@ public class Live {
 	private String nomeCanal;
 
 	@Column
+	@NotNull
+	@JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd HH:mm")
 	private LocalDateTime dataLive;
+	
 
 	@NotNull
 	@Column
