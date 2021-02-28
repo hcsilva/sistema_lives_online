@@ -1,0 +1,5 @@
+package com.arrow.lives.model;
+
+public class Live {
+
+}

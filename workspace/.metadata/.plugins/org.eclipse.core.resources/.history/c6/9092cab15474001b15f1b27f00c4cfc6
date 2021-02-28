@@ -1,0 +1,5 @@
+package com.arrow.lives.service;
+
+public class LiveService {
+
+}

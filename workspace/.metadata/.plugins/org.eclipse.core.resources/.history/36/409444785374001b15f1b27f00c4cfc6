@@ -1,0 +1,5 @@
+package com.arrow.lives.controller;
+
+public class LiveController {
+
+}

@@ -1,0 +1,5 @@
+package com.arrow.lives.repository;
+
+public interface LiveRepository {
+
+}

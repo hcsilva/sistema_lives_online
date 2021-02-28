@@ -1,0 +1,9 @@
+package com.arrow.lives.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.arrow.lives.model.Live;
+
+public interface LiveRepository extends JpaRepository<Live, Long>{
+
+}
